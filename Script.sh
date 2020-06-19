@@ -43,7 +43,7 @@ fi
 
     fi
 
-        if [ "$yn2" ];then
+        if [ "$yn2" = "y" ];then
             clear
             figlet TextImageMaker | lolcat
             echo "=============================================================================" | lolcat
